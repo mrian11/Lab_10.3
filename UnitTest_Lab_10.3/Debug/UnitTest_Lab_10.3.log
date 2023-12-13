@@ -1,0 +1,13 @@
+﻿  UnitTest_Lab_10.3.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(66,81): error C2338: Test writer must define specialization of ToString<const Q& q> for your class class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > __cdecl Microsoft::VisualStudio::CppUnitTestFramework::ToString<enum Train>(const enum Train &).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(137): message : see reference to function template instantiation 'std::wstring Microsoft::VisualStudio::CppUnitTestFramework::ToString<T>(const Q &)' being compiled
+          with
+          [
+              T=Train,
+              Q=Train
+          ]
+C:\Users\Користувач\source\repos\Lab_10.3\UnitTest_Lab_10.3\UnitTest_Lab_10.3.cpp(31): message : see reference to function template instantiation 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual<Train>(const T &,const T &,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)' being compiled
+          with
+          [
+              T=Train
+          ]
